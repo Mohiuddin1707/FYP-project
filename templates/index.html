@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HOME | FIRE & SMOKE DETECTOR</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<style>
+
+  *{
+    margin: 0;
+    padding: 0;
+}
+
+.contains{
+    background: url(static/Parallax4.gif);
+    color: white;
+    position: relative;
+    height: 80vh;
+    align-items: center;
+    font-family: Quicksand;
+    display: flex;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    z-index: 1;
+    padding-left: 300px;
+}
+
+
+
+.color-overlay {
+    background: linear-gradient(to top left, rgb(0, 97, 253), rgb(0, 0, 0));
+    width: 100%;
+    height: 80vh;
+    opacity: .4;
+    position: absolute;
+}
+
+.rounded-button {
+    border: none;
+    background-color: rgb(0, 97, 253);
+    font-size: large;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+  
+}
+
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+html, body {
+    height: 100%;
+}
+
+.text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7); /* Background color with some transparency */
+    color: white;
+    padding: 10px;
+}
+
+* {box-sizing: border-box}
+.mySlides1 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-bar w3-card" style="background-color: rgba(0, 97, 253);"> 
+  <a href="#" class="w3-bar-item w3-button w3-padding-large" style="color: #f1f1f1;"><i class="glyphicon glyphicon-home"></i>&nbsp;<b>HOME</b></a>
+  <a href="display-csv/" class="w3-bar-item w3-button w3-padding-large w3-hide-small" style="color: #f1f1f1;"> <i class="fa fa-th"></i>&nbsp;SOLUTIONS</a>
+</div>
+ 
+<div class="contains">
+  <h1><b>Ai - Based Fire & Smoke Detector </b><br/>
+    <p1 style="font-size:medium ;">Through CCTV live Footage the detection of Fire & Smoke is being<br/> done. Cheap & Efficient tool on the go</p1><br/>
+    <a href="https://demo.roboflow.com/ai-based-fire-and-smoke-detector/1?publishable_key=rf_dSRibizZXcN442kAgl4rutxUk4y2"><button class="rounded-button"><b>Request Demo<i class='fa fa-chevron-right' style="font-size: small; padding-left:5px;" ></i></b></button></a>
+  </h1>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="static/AI-2.gif" height="30%" width="25%">
+
+<div class="color-overlay"></div>
+</div>
+<br/><br/><br/><br/>
+<h1><b>INTRODUCTION TO THE YOLO MODEL</b></h1>
+<em style="padding-left: 300px;">The FYP Project Uses YOLO Model For detection</em>
+<br/><br/>
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="static/YoloGif.gif" width="1000px" height="250px" style="padding-left:80px;">
+<br/>
+<br/>
+<br/><br/>
+<p style="padding-left: 300px; font-family: 'Courier New', Courier, monospace; font-size: medium;">YOLO (You Only Look Once) is a popular object detection model known for its speed and accuracy.<br/>
+  It was first introduced by Joseph Redmon et al. in 2016 and has since undergone several iterations,<br/> the latest being YOLO v7.
+  It deals with localizing a region of interest within an image and classifying <br/>this region like a typical image classifier. One image can include several regions of interest pointing <br/>to different objects. This makes object detection a more advanced problem of image classification.
+</p>
+<hr>
+<div class="w3-container" style="background-color: rgb(244, 240, 240);">
+<h1>Everything about the Project</h1>
+<br/>
+
+<div class="slideshow-container">
+<div class="mySlides1">
+   <img src="static/Dataset.png" style="width:100%">
+   <div class="text">1. Data Collection & Image Dataset</div>
+</div>
+
+<div class="mySlides1">
+   <img src="static/Annotations.png" style="width:100%">
+   <div class="text">2. Annotation of the Images</div>
+</div>
+
+<div class="mySlides1">
+   <img src="static/Testing.png" style="width:100%">
+   <div class="text">3. Testing of AI</div>
+</div>
+
+<div class="mySlides1">
+  <img src="static/Testing.png" style="width:100%">
+  <div class="text">4. Testing of AI</div>
+</div>
+
+<div class="mySlides1">
+  <img src="static/Testing.png" style="width:100%">
+  <div class="text">5. Testing of AI</div>
+</div>
+
+<div class="mySlides1">
+  <img src="static/Testing.png" style="width:100%">
+  <div class="text">6. Testing of AI</div>
+</div>
+
+<a class="prev" onclick="plusSlides(-1, 0)" style="background-color: rgb(174, 0, 174, 0.5);">&#10094;</a>
+<a class="next" onclick="plusSlides(1, 0)" style="background-color: rgb(174, 0, 174, 0.5);">&#10095;</a>
+</div>
+
+
+
+<script>
+let slideIndex = [1,1];
+let slideId = ["mySlides1", "mySlides2"]
+showSlides(1, 0);
+showSlides(1, 1);
+
+function plusSlides(n, no) {
+showSlides(slideIndex[no] += n, no);
+}
+
+function showSlides(n, no) {
+let i;
+let x = document.getElementsByClassName(slideId[no]);
+if (n > x.length) {slideIndex[no] = 1}    
+if (n < 1) {slideIndex[no] = x.length}
+for (i = 0; i < x.length; i++) {
+x[i].style.display = "none";  
+}
+x[slideIndex[no]-1].style.display = "block";  
+}
+</script>
+<br/>
+<!-- Footer -->
+<footer style="background-color: rgba(0, 97, 253); padding: 30px;font-family: 'Courier New', Courier, monospace; font-size: large;">
+<p style="color: #f1f1f1;"><b>All rights to FYP group - Hamdard University | DOC - FEST</b>
+<br/><br/>
+<p style="color: #f1f1f1; font-size:medium;"><b>FYP group members</b>
+<ol style="padding: 30px;">
+ <li style="color: #f1f1f1;">Ghulam Mohiuddin Khan &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  CMS-ID: 536-2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-MAIL: 536-2020@Hamdard.edu</li>
+ <li style="color: #f1f1f1;">Abdul Ahad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CMS-ID: 537-2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-MAIL: 537-2020@Hamdard.edu</li>
+ <li style="color: #f1f1f1;">Ahmed Hamza &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; CMS-ID: 947-2020&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; E-MAIL: 947-2020@Hamdard.edu</li>
+</ol>
+</p>
+</footer>
+
+
+</body>
+</html>
